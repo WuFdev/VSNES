@@ -1,6 +1,6 @@
 
 let c = el("output");
-c.width = 512;
+c.width = 1000;
 c.height = 480;
 let ctx = c.getContext("2d");
 let imgData = ctx.getImageData(0, 0, 512, 480);
